@@ -17,7 +17,7 @@ Below is how the SCP code performs without wind:
 
 However, when we add a constant wind force that the algorithm's dynamics are not aware of, the wind drags the drone off course, causing it to hit obstacles and drift away from our desired trajectory.
 
-![SCP Quadrotor Obstacle Avoidance Under Presence of Wind](insert_fig2_url_here)
+![SCP Quadrotor Obstacle Avoidance Under Presence of Wind](./images/SCPw0w.png)
 
 ### Future Work: Adding an MPC-Style Approach
 

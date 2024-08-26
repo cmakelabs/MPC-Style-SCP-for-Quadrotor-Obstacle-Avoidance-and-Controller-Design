@@ -6,7 +6,7 @@ In this project, our aim is to create a robust Sequential Convex Programming (SC
 
 You can find codes for the general nonlinear problem solver:
 
-[KutayDemiralay_Quadrotor Obstacle Avoidance SCP.ipynb](./KutayDemiralay_QuadrotorObstacleAvoidance.ipynb)
+[KutayDemiralay_Quadrotor Obstacle Avoidance SCP.ipynb](./KutayDemiralay_Quadrotor_Obstacle_Avoidance.ipynb)
 
 
 ### Performance of SCP Code Without Wind

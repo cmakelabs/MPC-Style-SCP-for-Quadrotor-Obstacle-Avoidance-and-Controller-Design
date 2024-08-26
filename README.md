@@ -8,7 +8,8 @@ In this project, our aim is to create a robust Sequential Convex Programming (SC
 
 Below is how the SCP code performs without wind:
 
-![SCP Obstacle Avoidance Without Wind](insert_fig1_url_here)
+![SCP Obstacle Avoidance Without Wind](./images/SCPww.png)
+
 
 **Figure 1:** As you can see, the node violation score is 0.0, meaning none of the nodes violate the obstacles in the route.
 

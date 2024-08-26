@@ -4,6 +4,11 @@
 
 In this project, our aim is to create a robust Sequential Convex Programming (SCP) code for quadrotor obstacle avoidance. SCP works by creating convex subproblems from a non-convex problem—in our case, 3D quadrotor obstacle avoidance. This is achieved by linearizing the non-convexities and approximating them into convex subproblems, which are then solved iteratively within a trust region.
 
+You can find codes for the general nonlinear problem solver:
+
+[KutayDemiralay_Quadrotor Obstacle Avoidance SCP.ipynb](./KutayDemiralay_QuadrotorObstacleAvoidance.ipynb)
+
+
 ### Performance of SCP Code Without Wind
 
 Below is how the SCP code performs without wind:
@@ -17,7 +22,7 @@ Below is how the SCP code performs without wind:
 
 However, when we add a constant wind force that the algorithm's dynamics are not aware of, the wind drags the drone off course, causing it to hit obstacles and drift away from our desired trajectory.
 
-![SCP Quadrotor Obstacle Avoidance Under Presence of Wind](./images/SCPw0w.png)
+![SCP Quadrotor Obstacle Avoidance Under Presence of Wind](./images/SCPwow.png)
 
 ### Future Work: Adding an MPC-Style Approach
 

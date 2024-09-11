@@ -28,3 +28,9 @@ However, when we add a constant wind force that the algorithm's dynamics are not
 
 To overcome this, we will be adding an MPC-style approach to the SCP code. In this approach, the remaining trajectory will be recalculated at each node, which we hope will make our algorithm more robust against disturbances such as wind. This is currently planned as future work.
 
+[Download TrajOptVideo.mp4](images/TrajOptVideo.mp4)
+
+<video width="640" height="360" controls>
+  <source src="images/TrajOptVideo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

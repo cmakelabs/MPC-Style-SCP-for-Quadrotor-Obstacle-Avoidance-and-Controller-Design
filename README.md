@@ -30,5 +30,5 @@ To overcome this, we will be adding an MPC-style approach to the SCP code. In th
 
 [Download TrajOptVideo.mp4](images/TrajOptVideo.mp4)
 
-![Quadcopter Trajectory Optimization](images/trajoptvideo.gif)
+[Quadcopter Trajectory Optimization](images/trajoptgif.gif)
 

@@ -24,6 +24,8 @@ However, when we add a constant wind force that the algorithm's dynamics are not
 
 ![SCP Quadrotor Obstacle Avoidance Under Presence of Wind](./images/SCPwow.png)
 
+**Figure 2:** As you can see, the node violation score is 0.0, meaning some of the nodes violate the obstacles in the route.
+
 ### Future Work: Adding an MPC-Style Approach
 
 To overcome this, we will be adding an MPC-style approach to the SCP code. In this approach, the remaining trajectory will be recalculated at each node, which we hope will make our algorithm more robust against disturbances such as wind. This is currently planned as future work.

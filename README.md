@@ -24,7 +24,7 @@ However, when we add a constant wind force that the algorithm's dynamics are not
 
 ![SCP Quadrotor Obstacle Avoidance Under Presence of Wind](./images/SCPwow.png)
 
-**Figure 2:** As you can see, the node violation score is 0.0, meaning some of the nodes violate the obstacles in the route.
+**Figure 2:** As you can see, the node violation score is around 41.72, meaning some of the nodes violate the obstacles in the route.
 
 ### Future Work: Adding an MPC-Style Approach
 

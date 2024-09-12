@@ -30,15 +30,23 @@ However, when we add a constant wind force that the algorithm's dynamics are not
 
 To overcome this, we will be adding an MPC-style approach to the SCP code. In this approach, the remaining trajectory will be recalculated at each node, which we hope will make our algorithm more robust against disturbances such as wind. This is currently planned as future work.
 
+### Simulink Controller Design
+
+An autonomous vehicle system has two key components: the first involves finding the optimal trajectory, and the second is designing a controller to ensure the vehicle follows that trajectory.
+
+For this project, I designed a controller based on the principles outlined in "Quadcopter Modeling and Simulation Based on Parrot Minidrone." I simplified and adapted the model, tuned the PID controllers and other control parameters, and tailored the design to my specific quadcopter case. By integrating the commands from my SCP (Sequential Convex Programming) algorithm, I developed a controller that effectively follows the optimized trajectory while accounting for the specific needs of my quadcopter.
 
 
-You can find Simulink Model for the Obstalce Avoidance SCP algorithm:
+The entire system was simulated using Simulink 3D Animation for visualization.
+
+You can find the Simulink Model for the Quadcopter Obstalce Avoidance :
 
 [QuadcopterObstacleAvoidanceSimulinkModel.slx](./QuadcopterObstacleAvoidanceSimulinkModel.slx)
 
 
 ![Simulink Main Block Diagram for Obstacle Avoidance Quadcopter Design](./images/SimulinkModel.png)
 
+**Figure 3:** . Simulink Main Block Diagram for Obstacle Avoidance Quadcopter Design
 
 ![Quadcopter Trajectory Optimization](images/trajoptgif.gif)
 

@@ -1,4 +1,4 @@
-# MPC-Style-SCP-for-Quadrotor-Obstacle-Avoidance
+# MPC-Style-SCP-for-Quadrotor-Obstacle-Avoidance and Controller Design
 
 **Model Predictive Control (MPC) Style Sequential Convex Programming (SCP) for Quadrotor Obstacle Avoidance**
 

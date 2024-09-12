@@ -27,7 +27,7 @@ However, when we add a constant wind force that the algorithm's dynamics are not
 ### Future Work: Adding an MPC-Style Approach
 
 To overcome this, we will be adding an MPC-style approach to the SCP code. In this approach, the remaining trajectory will be recalculated at each node, which we hope will make our algorithm more robust against disturbances such as wind. This is currently planned as future work.
-
+![SCP Quadrotor Obstacle Avoidance Under Presence of Wind](./images/SimulinkModel.png)
 [Download TrajOptVideo.mp4](images/TrajOptVideo.mp4)
 
 ![Quadcopter Trajectory Optimization](images/trajoptgif.gif)

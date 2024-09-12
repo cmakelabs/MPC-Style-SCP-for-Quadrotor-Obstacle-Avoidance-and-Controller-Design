@@ -34,7 +34,7 @@ To overcome this, we will be adding an MPC-style approach to the SCP code. In th
 
 An autonomous vehicle system has two key components: the first involves finding the optimal trajectory, and the second is designing a controller to ensure the vehicle follows that trajectory.
 
-For this project, I designed a controller based on the principles outlined in "Quadcopter Modeling and Simulation Based on Parrot Minidrone." I simplified and adapted the model, tuned the PID controllers and other control parameters, and tailored the design to my specific quadcopter case. By integrating the commands from my SCP (Sequential Convex Programming) algorithm, I developed a controller that effectively follows the optimized trajectory while accounting for the specific needs of my quadcopter.
+For this project, I designed a controller based on the principles outlined in "Quadcopter Modeling and Simulation Based on Parrot Minidrone." I simplified and adapted the model, tuned the PID controllers and other control parameters, and tailored the design to my specific quadcopter case. By integrating the commands from my SCP (Sequential Convex Programming) algorithm (same commands from figures 1 and 2) , I developed a controller that effectively follows the optimized trajectory while accounting for the specific needs of my quadcopter.
 
 
 The entire system was simulated using Simulink 3D Animation for visualization.

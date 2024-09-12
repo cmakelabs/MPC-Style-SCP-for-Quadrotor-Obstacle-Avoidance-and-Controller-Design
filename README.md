@@ -32,11 +32,11 @@ To overcome this, we will be adding an MPC-style approach to the SCP code. In th
 
 You can find Simulink Model for the Obstalce Avoidance SCP algorithm:
 
-[KutayDemiralay_Quadrotor Obstacle Avoidance SCP.ipynb](./QuadcopterObstacleAvoidanceSimulinkModel.slx)
+[QuadcopterObstacleAvoidanceSimulinkModel.slx](./QuadcopterObstacleAvoidanceSimulinkModel.slx)
 
 
-![SCP Quadrotor Obstacle Avoidance Under Presence of Wind](./images/SimulinkModel.png)
-[Download TrajOptVideo.mp4](images/TrajOptVideo.mp4)
+![Simulink Main Block Diagram for Obstacle Avoidance Quadcopter Design](./images/SimulinkModel.png)
+
 
 ![Quadcopter Trajectory Optimization](images/trajoptgif.gif)
 
